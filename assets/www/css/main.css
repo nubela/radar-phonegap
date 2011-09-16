@@ -5,11 +5,16 @@ body {
   line-height: 0.9em;
   margin: 0; }
 
+.hidden {
+  display: none; }
+
+.nube {
+  width: 100% !important; }
+
 .header {
-  position: fixed; }
+  position: fixed;
+  width: 100%; }
   .header .titlebar {
-    width: 100%; }
-  .header .actionbar {
     width: 100%; }
   .header .actionbar_contents {
     width: 100%;
@@ -26,6 +31,20 @@ body {
 
 .fitwidth {
   width: 100%; }
+
+.loading {
+  padding-top: 50%;
+  width: 100%; }
+  .loading .loadingtext {
+    width: 100%;
+    text-align: center;
+    color: #f76767;
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+    margin-bottom: 5px; }
+  .loading img {
+    display: block;
+    margin: auto; }
 
 .content {
   padding-top: 30%;

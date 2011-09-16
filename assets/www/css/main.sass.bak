@@ -9,13 +9,11 @@ body
 .hidden
 	display: none
 
-.nube
-	width: 100% !important
-
 .header
 	position: fixed
-	width: 100%
 	.titlebar
+		width: 100%
+	.actionbar,.actionbar2
 		width: 100%
 	
 	.actionbar_contents

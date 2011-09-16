@@ -1,2 +1,2 @@
-input:focus, textarea:focus, .editable {
+input:focus, textarea:focus, .editable, img, div {
   outline: none; }

@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+html xmlns="http://www.w3.org/1999/xhtml"
+	head	
+		<meta http-equiv="Content-type" content="text/html; charset=us-ascii"/>
+  		<meta name="viewport" content="width=320, 
+width=device-width, height=device-height, initial-scale=1.0, 
+maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" /> 
+  		
+		title
+			Radar
+			
+		<link rel="stylesheet" href="css/main.css" type="text/css"/>
+		<link rel="stylesheet" href="css/reset.css" type="text/css"/>
+		<script type="text/javascript" charset="utf-8" src="js/phonegap-1.0.0.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/jquery-1.6.4.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/radar.js"></script>
+		
+body
+	div.top
+		div.header
+			> img.titlebar src="images/titlebar.png"
+			div.actionbar_contents
+				div.action
+					> img src="images/camera.png"
+				div.action
+					> img src="images/camera.png"
+				div.action
+					> img src="images/camera.png"
+				div.action onclick="popup();"
+					> img src="images/camera.png"
+			> img.titlebar src="images/actionbar.png"
+			
+		div.content
+		
+			div.loading.hidden
+				p.loadingtext | Grabbing your location
+				> img src="images/ajax-loader.gif"
+		
+			
+			div.itemcontainer
+				div.thumb
+					> img src="images/itemsample.jpg"
+				div.itemdesc
+					p.maindesc
+						IPad 32GB, Brand New In Box
+						span | 300m
+					p.price
+						S$321
+					p.category
+						Computer Accessories
+				div.go	
+					> img src="images/go.png"
+			div.itemcontainer
+				div.thumb
+					> img src="images/itemsample.jpg"
+				div.itemdesc
+					p.maindesc
+						IPad 32GB, Brand New In Box
+						span | 300m
+					p.price
+						S$321
+					p.category
+						Computer Accessories
+				div.go	
+					> img src="images/go.png"
+			div.itemcontainer
+				div.thumb
+					> img src="images/itemsample.jpg"
+				div.itemdesc
+					p.maindesc
+						IPad 32GB, Brand New In Box
+						span | 300m
+					p.price
+						S$321
+					p.category
+						Computer Accessories
+				div.go	
+					> img src="images/go.png"
+			div.itemcontainer
+				div.thumb
+					> img src="images/itemsample.jpg"
+				div.itemdesc
+					p.maindesc
+						IPad 32GB, Brand New In Box
+						span | 300m
+					p.price
+						S$321
+					p.category
+						Computer Accessories
+				div.go	
+					> img src="images/go.png"
+			div.itemcontainer
+				div.thumb
+					> img src="images/itemsample.jpg"
+				div.itemdesc
+					p.maindesc
+						IPad 32GB, Brand New In Box
+						span | 300m
+					p.price
+						S$321
+					p.category
+						Computer Accessories
+				div.go	
+					> img src="images/go.png"
+			div.itemcontainer
+				div.thumb
+					> img src="images/itemsample.jpg"
+				div.itemdesc
+					p.maindesc
+						IPad 32GB, Brand New In Box
+						span | 300m
+					p.price
+						S$321
+					p.category
+						Computer Accessories
+				div.go	
+					> img src="images/go.png"
