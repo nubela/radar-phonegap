@@ -18,13 +18,13 @@ html xmlns="http://www.w3.org/1999/xhtml"
 				> img.titlebar src="images/titlebar.png"
 				div.actionbar_contents
 					div.action
-						> img src="images/camera.png"
+						> img src="images/list_s.png"
 					div.action
-						> img src="images/camera.png"
+						> img.go_categories src="images/categories.png"
 					div.action
-						> img src="images/camera.png"
+						> img.go_user src="images/user.png"
 					div.action
-						> img src="images/camera.png"
+						> img.go_camera src="images/camera.png"
 					
 				> img.nube src="images/actionbar.png"
 				
@@ -43,9 +43,11 @@ html xmlns="http://www.w3.org/1999/xhtml"
 						p.maindesc
 							span.1
 								IPad 32GB, Brand New In Box
-							span.2 | 300m
+							span.distance 
+								300m
 						p.price
 							S$321
+							span.2 | 300m
 						p.category
 							Computer Accessories
 					div.go	

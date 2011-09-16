@@ -1,4 +1,4 @@
-input:focus, textarea:focus, .editable {
+input:focus, textarea:focus, .editable, img, div {
   outline: none; }
 
 body {
@@ -24,10 +24,10 @@ body {
       width: 25%;
       height: 92px; }
       .header .actionbar_contents .action img {
-        width: 30px;
         padding-top: 16px;
         margin: 0 auto;
-        display: block; }
+        display: block;
+        height: 25px; }
 
 .fitwidth {
   width: 100%; }
@@ -75,7 +75,7 @@ body {
         color: #a6a6a6;
         line-height: 20px;
         margin-top: 5px; }
-        .content .itemcontainer .itemdesc .maindesc span {
+        .content .itemcontainer .itemdesc .maindesc span.distance {
           font-size: 10px;
           line-height: 20px;
           padding: 0px 5px; }
