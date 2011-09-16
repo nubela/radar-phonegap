@@ -1,0 +1,42 @@
+input:focus, textarea:focus, .editable {
+  outline: none; }
+
+body {
+  line-height: 0.9em;
+  margin: 0; }
+
+.header {
+  position: fixed; }
+  .header .titlebar {
+    width: 100%; }
+  .header .actionbar {
+    width: 100%; }
+  .header .actionbar_contents {
+    width: 100%;
+    position: absolute; }
+    .header .actionbar_contents .action {
+      float: left;
+      width: 25%;
+      height: 92px; }
+      .header .actionbar_contents .action img {
+        width: 30px;
+        padding-top: 16px;
+        margin: 0 auto;
+        display: block; }
+
+.content {
+  padding-top: 25%; }
+  .content .box {
+    width: 96%;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%; }
+    .content .box .boxheader {
+      font-size: 0.7em;
+      margin: 0 0; }
+    .content .box .container {
+      background-color: #e6e6e6;
+      height: 100px; }
+
+.fitwidth {
+  width: 100%; }

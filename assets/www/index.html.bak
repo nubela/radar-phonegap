@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for Linux/x86 (vers 11 February 2007), see www.w3.org" />
+  <meta name="viewport" content="width=320; user-scalable=no" />
+  <meta http-equiv="Content-type" content="text/html; charset=us-ascii" />
+
+  <title>Pointy</title>
+  <link rel="stylesheet" href="master.css" type="text/css" media="screen" title=
+  "no title" charset="utf-8" />
+  <script type="text/javascript" charset="utf-8" src="phonegap-1.0.0.js">
+</script>
+  <link rel="stylesheet" href=
+  "http://code.jquery.com/mobile/1.0b2/jquery.mobile-1.0b2.min.css" type="text/css" />
+  <script src="http://code.jquery.com/jquery-1.6.2.min.js" type="text/javascript">
+</script>
+  <script src="http://code.jquery.com/mobile/1.0b2/jquery.mobile-1.0b2.min.js" type=
+  "text/javascript">
+</script>
+<script src="pointy.js" type=
+  "text/javascript">
+</script>
+</head>
+
+<body onload="init();" id="stage" class="theme">
+  <h1>Pointy Prototype2</h1>
+
+  <div id="info">
+    test
+  </div><a href="#" class="btn large" onclick="addPointy();">Add Pointy</a> <!--
+    <a href="#" class="btn large" onclick="toggleAccel();">Toggle Accelerometer</a>
+    <a href="#" class="btn large" onclick="getLocation();">Get Location</a>
+        <a href="tel://411" class="btn large">Call 411</a>
+    <a href="#" class="btn large" onclick="beep();">Beep</a>
+    <a href="#" class="btn large" onclick="vibrate();">Vibrate</a>
+    <a href="#" class="btn large" onclick="show_pic();">Get a Picture</a>
+    <a href="#" class="btn large" onclick="get_contacts();">Get Phone's Contacts</a>
+    <a href="#" class="btn large" onclick="check_network();">Check Network</a>
+     -->
+
+  <div id="viewport" class="viewport" style="display: none;"><img style=
+  "width:60px;height:60px" id="test_img" src="" name="test_img" /></div>
+</body>
+</html>
