@@ -1,2 +1,2 @@
 #!/bin/bash
-python /home/nubela/Workspace/transcompiler-watcher/src/watch.py /home/nubela/Workspace/PointyAndroid/assets/www
+python /home/nubela/Workspace/transcompiler-watcher/src/watch.py /home/nubela/Workspace/radar-android-phonegap/assets/www

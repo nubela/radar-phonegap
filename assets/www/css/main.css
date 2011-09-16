@@ -24,19 +24,39 @@ body {
         margin: 0 auto;
         display: block; }
 
-.content {
-  padding-top: 25%; }
-  .content .box {
-    width: 96%;
-    margin-top: 5%;
-    margin-left: 2%;
-    margin-right: 2%; }
-    .content .box .boxheader {
-      font-size: 0.7em;
-      margin: 0 0; }
-    .content .box .container {
-      background-color: #e6e6e6;
-      height: 100px; }
-
 .fitwidth {
   width: 100%; }
+
+.content {
+  padding-top: 30%;
+  width: 100%; }
+  .content .itemcontainer {
+    background-image: url("../images/item_bg.png");
+    background-repeat: repeat-y;
+    background-size: 100%;
+    width: 100%;
+    overflow: hidden; }
+    .content .itemcontainer .thumb {
+      float: left;
+      width: 35%;
+      min-height: 100px;
+      background-color: transparent; }
+      .content .itemcontainer .thumb img {
+        width: 80%;
+        display: block;
+        margin: auto; }
+    .content .itemcontainer .itemdesc {
+      float: left;
+      width: 45%;
+      min-height: 100px;
+      background-color: transparent; }
+    .content .itemcontainer .go {
+      min-height: 100px;
+      float: left;
+      width: 20%;
+      background-color: transparent; }
+      .content .itemcontainer .go img {
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        width: 50%; }

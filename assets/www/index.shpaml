@@ -7,15 +7,9 @@ html xmlns="http://www.w3.org/1999/xhtml"
 		> meta http-equiv="Content-type" content="text/html; charset=us-ascii"
   		
 		title
-			Pointy
+			Radar
 			
 		> link rel="stylesheet" href="css/main.css" type="text/css"
-		
-		> script type="text/javascript" charset="utf-8" src="js/jquery-1.6.4.min.js"
-  		> script type="text/javascript" charset="utf-8" src="js/pointy.js"
-  		> script type="text/javascript" charset="utf-8" src="js/phonegap-1.0.0.js"
-			
-  		
 		
 body
 	div.top
@@ -34,23 +28,24 @@ body
 			
 		div.content
 		
-			div.box
-				p.boxheader | 15 mins walk
-				div.container | &nbsp;
-				
-			div.box
-				p.boxheader | 15 mins walk
-				div.container | &nbsp;
-				
-			div.box
-				p.boxheader | 15 mins walk
-				div.container | &nbsp;
-				
-			div.box
-				p.boxheader | 15 mins walk
-				div.container | &nbsp;
-				
-			div.box
-				p.boxheader | 15 mins walk
-				div.container | &nbsp;
-		
+			div.itemcontainer
+				div.thumb
+					> img src="images/itemsample.jpg"
+				div.itemdesc
+					blablabla
+				div.go	
+					> img src="images/go.png"
+			div.itemcontainer
+				div.thumb
+					> img src="images/itemsample.jpg"
+				div.itemdesc
+					blablabla
+				div.go	
+					> img src="images/go.png"
+			div.itemcontainer
+				div.thumb
+					> img src="images/itemsample.jpg"
+				div.itemdesc
+					blablabla
+				div.go	
+					> img src="images/go.png"
