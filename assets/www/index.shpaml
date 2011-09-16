@@ -10,6 +10,7 @@ html xmlns="http://www.w3.org/1999/xhtml"
 			Radar
 			
 		> link rel="stylesheet" href="css/main.css" type="text/css"
+		> link rel="stylesheet" href="css/reset.css" type="text/css"
 		
 body
 	div.top
@@ -32,20 +33,103 @@ body
 				div.thumb
 					> img src="images/itemsample.jpg"
 				div.itemdesc
-					blablabla
+					p.maindesc
+						IPad 32GB, Brand New In Box
+						span | 300m
+					p.price
+						S$321
+					p.category
+						Computer Accessories
 				div.go	
 					> img src="images/go.png"
 			div.itemcontainer
 				div.thumb
 					> img src="images/itemsample.jpg"
 				div.itemdesc
-					blablabla
+					p.maindesc
+						IPad 32GB, Brand New In Box
+						span | 300m
+					p.price
+						S$321
+					p.category
+						Computer Accessories
 				div.go	
 					> img src="images/go.png"
 			div.itemcontainer
 				div.thumb
 					> img src="images/itemsample.jpg"
 				div.itemdesc
-					blablabla
+					p.maindesc
+						IPad 32GB, Brand New In Box
+						span | 300m
+					p.price
+						S$321
+					p.category
+						Computer Accessories
+				div.go	
+					> img src="images/go.png"
+			div.itemcontainer
+				div.thumb
+					> img src="images/itemsample.jpg"
+				div.itemdesc
+					p.maindesc
+						IPad 32GB, Brand New In Box
+						span | 300m
+					p.price
+						S$321
+					p.category
+						Computer Accessories
+				div.go	
+					> img src="images/go.png"
+			div.itemcontainer
+				div.thumb
+					> img src="images/itemsample.jpg"
+				div.itemdesc
+					p.maindesc
+						IPad 32GB, Brand New In Box
+						span | 300m
+					p.price
+						S$321
+					p.category
+						Computer Accessories
+				div.go	
+					> img src="images/go.png"
+			div.itemcontainer
+				div.thumb
+					> img src="images/itemsample.jpg"
+				div.itemdesc
+					p.maindesc
+						IPad 32GB, Brand New In Box
+						span | 300m
+					p.price
+						S$321
+					p.category
+						Computer Accessories
+				div.go	
+					> img src="images/go.png"
+			div.itemcontainer
+				div.thumb
+					> img src="images/itemsample.jpg"
+				div.itemdesc
+					p.maindesc
+						IPad 32GB, Brand New In Box
+						span | 300m
+					p.price
+						S$321
+					p.category
+						Computer Accessories
+				div.go	
+					> img src="images/go.png"
+			div.itemcontainer
+				div.thumb
+					> img src="images/itemsample.jpg"
+				div.itemdesc
+					p.maindesc
+						IPad 32GB, Brand New In Box
+						span | 300m
+					p.price
+						S$321
+					p.category
+						Computer Accessories
 				div.go	
 					> img src="images/go.png"
