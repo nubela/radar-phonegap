@@ -36,13 +36,14 @@ html xmlns="http://www.w3.org/1999/xhtml"
 					> img src="images/ajax-loader.gif"
 			
 				
-				div.itemcontainer.hidden
+				div.specialcontainer.hidden
 					div.thumb
-						> img src="images/itemsample.jpg"
+						> img.thumbimg src="images/itemsample.jpg"
 					div.itemdesc
 						p.maindesc
-							IPad 32GB, Brand New In Box
-							span | 300m
+							span.1
+								IPad 32GB, Brand New In Box
+							span.2 | 300m
 						p.price
 							S$321
 						p.category

@@ -10,16 +10,36 @@ function generalFailure() {
 
 function initFrontpage(latitude, longitude) {
 	$(".loadingtext").html("Getting classified ads near you...");
-	$.post(feedUrl + "/ad/list", {
+	
+	var data= {
 		"long": longitude,
 		"lat": latitude,
 		"total": 25,
-	}, function(data) {
-		navigator.notification.alert('works!');
-		var json_res = $.parseJSON(data);
-		$(".loading").addClass("hidden");
+	}
+	
+	$.ajax({
+		url: feedUrl + "/ad/list",
+		dataType: 'json',
+		type: 'post',
+		data: data,
+		success: function (data) {
+			$(".loading").addClass("hidden");
+			var ads = data.ads;
+			for (i = 0; i < ads.length; i++) {
+				var ad = ads[i];
+				var container = $(".specialcontainer").clone().removeClass("specialcontainer").removeClass("hidden").addClass("itemcontainer");
+				$(container).find(".1").html(ad.title);
+				$(container).find(".price").html(ad.price);
+				$(container).find(".category").html(ad.category.name);
+				$(container).find(".thumbimg").attr("src",feedUrl + "/static/uploads/" + ad.image);
+				$(".specialcontainer").after(container);
+			}
+			
+		},
 	});
+	
 }
+
 
 function initGPS() {
 	navigator.geolocation.getCurrentPosition(function(position) {
