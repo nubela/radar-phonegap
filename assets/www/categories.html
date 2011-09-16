@@ -4,7 +4,16 @@
   		<meta name="viewport" content="width=320, width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
   		<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
 
-  		<style type="text/css">
+		<title>
+			Radar
+		</title>
+
+		<link rel="stylesheet" href="css/main.css" type="text/css"/>
+		<link rel="stylesheet" href="css/reset.css" type="text/css"/>
+		<script type="text/javascript" charset="utf-8" src="js/phonegap-1.0.0.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/jquery-1.6.4.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/categories.js"></script>
+		<style type="text/css">
   a:link { text-decoration:none }
   a:visited { text-decoration:none }
   a:hover { text-decoration:none }
@@ -14,29 +23,19 @@
 </style>
 
 
-		<title>
-			Radar
-		</title>
-
-		<link rel="stylesheet" href="css/main.css" type="text/css"/>
-		<link rel="stylesheet" href="css/reset.css" type="text/css"/>
-		<script type="text/javascript" charset="utf-8" src="js/phonegap-1.0.0.js"></script>
-		<script type="text/javascript" charset="utf-8" src="js/jquery-1.6.4.min.js"></script>
-		<script type="text/javascript" charset="utf-8" src="js/radar.js"></script>
-
-	<body onload="initGPS();">
+	<body>
 		<div class="top">
 			<div class="header">
 				<img src="images/titlebar.png" class="titlebar" />
 				<div class="actionbar_contents">
 					<div class="action">
-						<img src="images/list_s.png" />
+						<img src="images/list.png"  onclick="window.location='index.html';" class="go_list" />
 					</div>
 					<div class="action">
-						<img src="images/categories.png" onclick="window.location='categories.html';" />
+						<img src="images/categories_s.png" />
 					</div>
 					<div class="action">
-						<img src="images/camera.png" onclick="window.location='camera1.html';" class="go_camera" />
+						<img src="images/camera.png"  onclick="window.location='camera1.html';" class="go_camera" />
 					</div>
 				</div>
 
@@ -46,13 +45,82 @@
 
 			<div class="content">
 
-				<div class="loading">
+				<div class="catholder">
+					<div class="cattitle">
+						For Sale
+					</div>
+					<div class="catgraybox">
+						<p>Free</p>
+						<p>Bikes</p>
+						<p>Books</p>
+						<p>Business</p>
+						<p>Computer</p>
+						<p>General</p>
+						<p>Household</p>
+						<p>Jewelry</p>
+						<p>Tickets</p>
+						<p>Tools</p>
+						<p>Wanted</p>
+						<p>Appliances</p>
+						<p>Arts and Crafts</p>
+						<p>Auto parts</p>
+						<p>Vehicles</p>
+						<p>Phones</p>
+						<p>Clothes</p>
+						<p>Electronics</p>
+						<p>Music</p>
+						<p>Video</p>
+						<p>Games</p>
+					</div>
+				</div>
+
+				<div class="catholder">
+					<div class="cattitle">
+						Services
+					</div>
+					<div class="catgraybox">
+						<p>Beauty Services</p>
+						<p>Computer Services</p>
+						<p>Creative Services</p>
+						<p>Labour Services</p>
+						<p>Writing Services</p>
+						<p>Legal Services</p>
+					</div>
+				</div>
+
+				<div class="catholder">
+					<div class="cattitle">
+						Housing
+					</div>
+					<div class="catgraybox">
+						<p>Rent</p>
+						<p>Apartments</p>
+						<p>Sell</p>
+						<p>Rooms/Shared</p>
+					</div>
+				</div>
+
+				<div class="catholder">
+					<div class="cattitle">
+						Personals
+					</div>
+					<div class="catgraybox">
+						<p>Strictly Platonic</p>
+						<p>Woman seeking Woman</p>
+						<p>Woman seeking Man</p>
+						<p>Man seeking Woman</p>
+						<p>Man seeking Man</p>
+						<p>Casual Encounters</p>
+					</div>
+				</div>
+
+				<div class="loading hidden">
 					<p class="loadingtext">Grabbing your location</p>
 					<img src="images/ajax-loader.gif" />
 				</div>
 
 
-				<div class="specialcontainer hidden">
+				<div class="specialcontainer2 hidden">
 					<div class="thumb">
 						<img src="images/itemsample.jpg" class="thumbimg" />
 					</div>

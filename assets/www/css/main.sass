@@ -23,7 +23,7 @@ body
 		position: absolute
 		.action
 			float: left
-			width: 25%
+			width: 33.3%
 			height: 92px
 			img
 				padding-top: 16px
@@ -33,6 +33,57 @@ body
 
 .fitwidth
 	width: 100%
+
+.cameraform
+	overflow: hidden
+
+	.formlabel
+		width: 100%
+		display: block
+		+content-font
+		font-size: 14px
+		color: #999
+		clear: both
+		float: left
+		padding: 10%
+		
+	select, input
+		width: 80%
+		margin: 0 auto
+		display: block
+		background-color: #fff
+		border: 2px solid #a6a6a6
+		height: 30px
+	
+.orangebutton
+	margin-top: 10%
+	padding: 10%
+	text-align: center
+	color: #FFFFFF
+	background-color: #f76767
+
+.catholder
+	padding: 0 10%
+	margin-bottom: 10%
+	.cattitle
+		width: 100%
+		+subheader-font
+		font-size: 32px
+		line-height: 40px
+		+font-gray
+		text-align: center
+		
+	.catgraybox
+		background-color: #e6e6e6
+		padding: 10px 0
+		
+		p
+			width: 100%
+			text-align: center
+			color: #999999
+			+content-font
+			line-height: 50px
+			font-size: 14px
 
 .loading
 	padding-top: 50%
@@ -57,10 +108,10 @@ body
 	
 	.itemcontainer
 		background-image: url("../images/item_bg.png")
-		background-repeat: repeat-y
+		background-repeat: no-repeat
 		background-size: 100%
 		width: 100%
-		overflow: hidden
+		overflow: hidden  
 		
 		.thumb
 			float: left
@@ -114,8 +165,23 @@ body
 				margin-top: 20px
 				width: 50%
 				
-				
-				
+		.orangebutton
+			margin: 10%
+			margin-top: 0
+			padding: 5%
+			clear: both
+			
+		.descbox
+			background-color: #e6e6e6
+			color: #999
+			+content-font
+			margin: 10%
+			margin-bottom: 0
+			padding: 5%
+			line-height: 20px
+			font-size: 14px
+			clear: both
+			
 		
 	
 		

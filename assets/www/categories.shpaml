@@ -1,0 +1,122 @@
+html xmlns="http://www.w3.org/1999/xhtml"
+	head	
+		<meta http-equiv="Content-type" content="text/html; charset=us-ascii"/>
+  		<meta name="viewport" content="width=320, width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+  		<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE"> 
+  		
+		title
+			Radar
+			
+		<link rel="stylesheet" href="css/main.css" type="text/css"/>
+		<link rel="stylesheet" href="css/reset.css" type="text/css"/>
+		<script type="text/javascript" charset="utf-8" src="js/phonegap-1.0.0.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/jquery-1.6.4.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/categories.js"></script>
+		<style type="text/css">
+  a:link { text-decoration:none }
+  a:visited { text-decoration:none }
+  a:hover { text-decoration:none }
+  a:active { text-decoration:none }
+</style>
+		
+		
+	body
+		div.top
+			div.header
+				> img.titlebar src="images/titlebar.png"
+				div.actionbar_contents
+					div.action
+						> img.go_list src="images/list.png"  onclick="window.location='index.html';"
+					div.action
+						> img src="images/categories_s.png"
+					div.action
+						> img.go_camera src="images/camera.png"  onclick="window.location='camera1.html';"
+					
+				> img.nube src="images/actionbar.png"
+				
+				
+			div.content
+			
+				div.catholder
+					div.cattitle
+						For Sale
+					div.catgraybox
+						p | Free
+						p | Bikes
+						p | Books
+						p | Business
+						p | Computer
+						p | General
+						p | Household
+						p | Jewelry
+						p | Tickets
+						p | Tools
+						p | Wanted
+						p | Appliances
+						p | Arts and Crafts
+						p | Auto parts
+						p | Vehicles
+						p | Phones
+						p | Clothes
+						p | Electronics
+						p | Music
+						p | Video
+						p | Games
+					 
+				div.catholder
+					div.cattitle
+						Services
+					div.catgraybox
+						p | Beauty Services
+						p | Computer Services
+						p | Creative Services
+						p | Labour Services
+						p | Writing Services
+						p | Legal Services
+						
+				div.catholder
+					div.cattitle
+						Housing
+					div.catgraybox
+						p | Rent
+						p | Apartments
+						p | Sell
+						p | Rooms/Shared
+						
+				div.catholder
+					div.cattitle
+						Personals
+					div.catgraybox
+						p | Strictly Platonic
+						p | Woman seeking Woman
+						p | Woman seeking Man
+						p | Man seeking Woman
+						p | Man seeking Man
+						p | Casual Encounters	
+			
+				div.loading.hidden
+					p.loadingtext | Grabbing your location
+					> img src="images/ajax-loader.gif"
+			
+				
+				div.specialcontainer2.hidden
+					div.thumb
+						> img.thumbimg src="images/itemsample.jpg"
+					div.itemdesc
+						p.maindesc
+							span.1
+								IPad 32GB, Brand New In Box
+							span.distance 
+								300m
+						p.price
+							S$321
+							span.2 | 300m
+						p.category
+							Computer Accessories
+					div.go	
+						> img src="images/go.png" onclick="unzip(this);"
+					div.descbox.hidden
+						asdasdas dasdasdadasd adasdasasdas dasdasdasdadasd adasdas  asdasdasdasdasdadasd adasdas  asdasdasdasdasdadasd adasdas  asdasdasdasdasdadasd adasdas  
+					a href="mailto:"
+						div.orangebutton.hidden
+							Contact Poster

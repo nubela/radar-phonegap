@@ -4,14 +4,6 @@ html xmlns="http://www.w3.org/1999/xhtml"
   		<meta name="viewport" content="width=320, width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
   		<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE"> 
   		
-  		<style type="text/css">
-  a:link { text-decoration:none }
-  a:visited { text-decoration:none }
-  a:hover { text-decoration:none }
-  a:active { text-decoration:none }
-</style>
-  		
-  		
 		title
 			Radar
 			
@@ -19,31 +11,59 @@ html xmlns="http://www.w3.org/1999/xhtml"
 		<link rel="stylesheet" href="css/reset.css" type="text/css"/>
 		<script type="text/javascript" charset="utf-8" src="js/phonegap-1.0.0.js"></script>
 		<script type="text/javascript" charset="utf-8" src="js/jquery-1.6.4.min.js"></script>
-		<script type="text/javascript" charset="utf-8" src="js/radar.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/camera.js"></script>
 		
-	body onload="initGPS();"
+	body
 		div.top
 			div.header
 				> img.titlebar src="images/titlebar.png"
 				div.actionbar_contents
 					div.action
-						> img src="images/list_s.png"
+						> img.go_list src="images/list.png"  onclick="window.location='index.html';"
 					div.action
 						> img src="images/categories.png" onclick="window.location='categories.html';"
 					div.action
-						> img.go_camera src="images/camera.png" onclick="window.location='camera1.html';"
+						> img.go_camera src="images/camera_s.png"
 					
 				> img.nube src="images/actionbar.png"
 				
 				
 			div.content
 			
-				div.loading
+				div.catholder
+					div.cattitle
+						Tell us a little bit about your Ad.
+					div.catgraybox.cameraform
+						label.formlabel
+							Choose a Category
+						select id="category"
+							option value="16"
+								Tools
+						label.formlabel
+							Give us a title for the ad
+						> input type="text" id="title"
+						label.formlabel
+							How about a little description?
+						> input type="text" id="description"
+						label.formlabel
+							How much are you charging?
+						> input type="text" id="price"
+						label.formlabel
+							What is your email for contact purposes?
+						> input type="text" id="email"
+					
+					div.orangebutton onclick="snapAndSubmit();"
+						Snap and Submit
+						
+						
+							
+			
+				div.loading.hidden
 					p.loadingtext | Grabbing your location
 					> img src="images/ajax-loader.gif"
 			
 				
-				div.specialcontainer.hidden
+				div.specialcontainer2.hidden
 					div.thumb
 						> img.thumbimg src="images/itemsample.jpg"
 					div.itemdesc
@@ -58,9 +78,5 @@ html xmlns="http://www.w3.org/1999/xhtml"
 						p.category
 							Computer Accessories
 					div.go	
-						> img src="images/go.png" onclick="unzip(this);"
-					div.descbox.hidden
-						asdasdas dasdasdadasd adasdasasdas dasdasdasdadasd adasdas  asdasdasdasdasdadasd adasdas  asdasdasdasdasdadasd adasdas  asdasdasdasdasdadasd adasdas  
-					a href="mailto:"
-						div.orangebutton.hidden
-							Contact Poster
+						> img src="images/go.png"
+				

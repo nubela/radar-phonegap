@@ -21,7 +21,7 @@ body {
     position: absolute; }
     .header .actionbar_contents .action {
       float: left;
-      width: 25%;
+      width: 33.3%;
       height: 92px; }
       .header .actionbar_contents .action img {
         padding-top: 16px;
@@ -31,6 +31,53 @@ body {
 
 .fitwidth {
   width: 100%; }
+
+.cameraform {
+  overflow: hidden; }
+  .cameraform .formlabel {
+    width: 100%;
+    display: block;
+    font-family: "Verdana";
+    font-size: 14px;
+    color: #999999;
+    clear: both;
+    float: left;
+    padding: 10%; }
+  .cameraform select, .cameraform input {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    background-color: white;
+    border: 2px solid #a6a6a6;
+    height: 30px; }
+
+.orangebutton {
+  margin-top: 10%;
+  padding: 10%;
+  text-align: center;
+  color: white;
+  background-color: #f76767; }
+
+.catholder {
+  padding: 0 10%;
+  margin-bottom: 10%; }
+  .catholder .cattitle {
+    width: 100%;
+    font-family: "Trebuchet MS";
+    font-size: 32px;
+    line-height: 40px;
+    color: #a6a6a6;
+    text-align: center; }
+  .catholder .catgraybox {
+    background-color: #e6e6e6;
+    padding: 10px 0; }
+    .catholder .catgraybox p {
+      width: 100%;
+      text-align: center;
+      color: #999999;
+      font-family: "Verdana";
+      line-height: 50px;
+      font-size: 14px; }
 
 .loading {
   padding-top: 50%;
@@ -51,7 +98,7 @@ body {
   width: 100%; }
   .content .itemcontainer {
     background-image: url("../images/item_bg.png");
-    background-repeat: repeat-y;
+    background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
     overflow: hidden; }
@@ -98,3 +145,18 @@ body {
         margin: auto;
         margin-top: 20px;
         width: 50%; }
+    .content .itemcontainer .orangebutton {
+      margin: 10%;
+      margin-top: 0;
+      padding: 5%;
+      clear: both; }
+    .content .itemcontainer .descbox {
+      background-color: #e6e6e6;
+      color: #999999;
+      font-family: "Verdana";
+      margin: 10%;
+      margin-bottom: 0;
+      padding: 5%;
+      line-height: 20px;
+      font-size: 14px;
+      clear: both; }
