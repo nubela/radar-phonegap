@@ -12,6 +12,9 @@
 		<link rel="stylesheet" href="css/reset.css" type="text/css"/>
 		<script type="text/javascript" charset="utf-8" src="js/phonegap-1.0.0.js"></script>
 		<script type="text/javascript" charset="utf-8" src="js/jquery-1.6.4.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/prototype.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/gps.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/common.js"></script>
 		<script type="text/javascript" charset="utf-8" src="js/categories.js"></script>
 		<style type="text/css">
   a:link { text-decoration:none }
@@ -116,13 +119,15 @@
 
 				<div class="loading hidden">
 					<p class="loadingtext">Grabbing your location</p>
-					<img src="images/ajax-loader.gif" />
+					<img src="images/ajax-loader.gif" class="loadinggif" />
 				</div>
 
 
 				<div class="specialcontainer2 hidden">
 					<div class="thumb">
-						<img src="images/itemsample.jpg" class="thumbimg" />
+						<a target="_blank" href="" class="thumbimglink">
+							<img src="images/itemsample.jpg" class="thumbimg" />
+						</a>
 					</div>
 					<div class="itemdesc">
 						<p class="maindesc">

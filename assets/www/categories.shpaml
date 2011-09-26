@@ -11,6 +11,9 @@ html xmlns="http://www.w3.org/1999/xhtml"
 		<link rel="stylesheet" href="css/reset.css" type="text/css"/>
 		<script type="text/javascript" charset="utf-8" src="js/phonegap-1.0.0.js"></script>
 		<script type="text/javascript" charset="utf-8" src="js/jquery-1.6.4.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/prototype.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/gps.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/common.js"></script>
 		<script type="text/javascript" charset="utf-8" src="js/categories.js"></script>
 		<style type="text/css">
   a:link { text-decoration:none }
@@ -96,12 +99,13 @@ html xmlns="http://www.w3.org/1999/xhtml"
 			
 				div.loading.hidden
 					p.loadingtext | Grabbing your location
-					> img src="images/ajax-loader.gif"
+					> img.loadinggif src="images/ajax-loader.gif"
 			
 				
 				div.specialcontainer2.hidden
 					div.thumb
-						> img.thumbimg src="images/itemsample.jpg"
+						a.thumbimglink target="_blank" href=""
+							> img.thumbimg src="images/itemsample.jpg"
 					div.itemdesc
 						p.maindesc
 							span.1

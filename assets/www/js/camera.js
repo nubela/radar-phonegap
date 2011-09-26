@@ -1,4 +1,4 @@
-var feedUrl = "http://192.168.1.120:5000";
+var feedUrl = "http://ec2-75-101-174-29.compute-1.amazonaws.com";
 
 function generalFailure() {
 	navigator.notification.alert('An unexpected error has occured!');
@@ -22,8 +22,15 @@ function uploadAd(imageData, position, cat_id, email, title, desc, price) {
 		dataType: "json",
 		type: "post",
 		data: data,
+		error: function (jqXHR, textStatus, errorThrown) {
+			navigator.notification.alert("Failed to contact server, please try again later.");
+		},
 		success: function(data) {
-			navigator.notification.alert('You have successfully posted your ad!');
+			if (data.res == false) {
+				navigator.notification.alert(data.error);
+			} else {
+				navigator.notification.alert('You have successfully posted your ad!');
+			}
 		}
 	})
 }
@@ -35,6 +42,7 @@ function snapAndSubmit() {
 
 	else {
 		navigator.camera.getPicture(function(imageData) {
+			navigator.notification.alert('Uploading your image, feel free to browse other ads while this happens.');
 			navigator.geolocation.getCurrentPosition(function(position) {
 				uploadAd(imageData, position, $("#category").val(), $("#email")
 						.val(), $("#title").val(), $("#description").val(), $("#price").val());

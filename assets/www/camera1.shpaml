@@ -11,6 +11,9 @@ html xmlns="http://www.w3.org/1999/xhtml"
 		<link rel="stylesheet" href="css/reset.css" type="text/css"/>
 		<script type="text/javascript" charset="utf-8" src="js/phonegap-1.0.0.js"></script>
 		<script type="text/javascript" charset="utf-8" src="js/jquery-1.6.4.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/prototype.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/gps.js"></script>
+		<script type="text/javascript" charset="utf-8" src="js/common.js"></script>
 		<script type="text/javascript" charset="utf-8" src="js/camera.js"></script>
 		
 	body
@@ -37,8 +40,43 @@ html xmlns="http://www.w3.org/1999/xhtml"
 						label.formlabel
 							Choose a Category
 						select id="category"
-							option value="16"
-								Tools
+							option value='1' | Strictly Platonic
+							option value='2' | Woman seeking Woman
+							option value='3' | Woman seeking Man
+							option value='4' | Man seeking Woman
+							option value='5' | Man seeking Man
+							option value='6' | Casual Encounters,
+							option value='7' | Free
+							option value='8' | Bikes
+							option value='9' | Books
+							option value='10' | Business
+							option value='11' | Computer
+							option value='12' | General
+							option value='13' | Household
+							option value='14' | Tickets
+							option value='15' | Tools
+							option value='16' | Wanted
+							option value='17' | Jewelry
+							option value='18' | Appliances
+							option value='19' | Arts and Crafts
+							option value='20' | Auto parts
+							option value='21' | Vehicles
+							option value='22' | Phones
+							option value='23' | Clothes
+							option value='24' | Electronics
+							option value='25' | Music
+							option value='26' | Video
+							option value='27' | Games
+							option value='28' | Beauty Services
+							option value='29' | Computer Services
+							option value='30' | Creative Services
+							option value='31' | Labour Services
+							option value='32' | Writing Services
+							option value='33' | Legal Services
+							option value='34' | Rent
+							option value='35' | Apartments
+							option value='36' | Sell
+							option value='37' | Rooms/Shared
 						label.formlabel
 							Give us a title for the ad
 						> input type="text" id="title"
@@ -49,7 +87,7 @@ html xmlns="http://www.w3.org/1999/xhtml"
 							How much are you charging?
 						> input type="text" id="price"
 						label.formlabel
-							What is your email for contact purposes?
+							What is your email for contact purposes? (Use a throwaway)
 						> input type="text" id="email"
 					
 					div.orangebutton onclick="snapAndSubmit();"

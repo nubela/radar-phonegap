@@ -118,7 +118,7 @@ body {
       background-color: transparent; }
       .content .itemcontainer .itemdesc .maindesc {
         font-family: "Trebuchet MS";
-        font-size: 16px;
+        font-size: 14px;
         color: #a6a6a6;
         line-height: 20px;
         margin-top: 5px; }
@@ -160,3 +160,8 @@ body {
       line-height: 20px;
       font-size: 14px;
       clear: both; }
+      .content .itemcontainer .descbox span.desctitle {
+        font-weight: bold;
+        font-size: 16px;
+        font-color: black;
+        margin-bottom: 5px; }
