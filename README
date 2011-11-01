@@ -1,0 +1,13 @@
+Released as Open Source.
+
+This project is a Phonegap app, conceived over a 24 hour hackathon, and works as a location-based classified ads app.
+This is a front end (client) to the backend service.
+
+Technologies employed:
+* SASS (For CSS)
+* SHPAML (pythonic HTML)
+* JQuery
+
+Most of the magic can be found in /assets/www , enjoy :)
+
+Feel free to email me at nubela@gmail.com
